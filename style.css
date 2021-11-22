@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  /* make text non selectable */
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+#canvas {
+  border: 1px solid lightgray;
+  margin-top: 10px;
+}
+
+#size {
+  cursor: pointer;
+  width: 300px;
+}
+
+#col {
+  border: none;
+  padding: 0px;
+  width: 50px;
+  padding-left: 3px;
+  padding-right: 3px;
+  background: #fff;
+}
+
+#e {
+  border: none;
+  padding: 5px;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  margin: 5px;
+  transition: 0.2s;
+}
+
+#e:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.controls {
+  background: #000;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

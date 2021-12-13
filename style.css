@@ -5,9 +5,8 @@
   -webkit-user-select: none;
 }
 
-#canvas {
-  border: 1px solid lightgray;
-  margin-top: 10px;
+#canvas{
+
 }
 
 #size {
@@ -32,6 +31,14 @@
   color: rgb(0, 0, 0);
   margin: 5px;
   transition: 0.2s;
+}
+
+#save{
+background: #fff;
+border: none;
+border-radius: 5px;
+padding: 5px;
+width: 60px;
 }
 
 #e:hover {
